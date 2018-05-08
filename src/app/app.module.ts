@@ -21,6 +21,7 @@ import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginCardComponent } from './login-card/login-card.component';
+import { RegisterCardComponent } from './register-card/register-card.component';
 
 
 export const MATERIAL_COMPONENTS = [
@@ -42,6 +43,7 @@ export const MATERIAL_COMPONENTS = [
     LoginComponent,
     RegisterComponent,
     LoginCardComponent,
+    RegisterCardComponent,
   ],
   imports: [
     BrowserModule,
